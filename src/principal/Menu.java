@@ -3,9 +3,7 @@ package principal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 
 import object.Classe;
 import object.Company;
@@ -220,7 +218,6 @@ public class Menu{
 		return null;
 	}
 	public void getTotalSalari() {
-		long i = 0;
 		int salary_internal = 0;
 		int salary_external = 0;
 		Iterator<Entry<String, Teacher>> it = map_teacher.entrySet().iterator();
