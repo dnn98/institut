@@ -19,6 +19,7 @@ public class Menu{
 	HashMap<String, Company> map_company = new HashMap<String, Company>();
 	public void inici() {
 		int i=0;
+		System.out.println("En Pere ha fet canvis");
 		while(i!=8) {
 			printMenu1();
 			i = Main.seleccionarInt();
