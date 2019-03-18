@@ -9,8 +9,6 @@ public abstract class Teacher{
 	protected int student_total;
 	protected ArrayList<String> subject_list;
 	protected ArrayList<Classe> classe_list;
-	private Company compania;
-	
 	public Teacher(){
 	}
 	

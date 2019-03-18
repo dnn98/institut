@@ -2,8 +2,6 @@ package object;
 
 import java.util.ArrayList;
 
-import principal.Main;
-
 public class Classe{
 	private String name;
 	private int capacity;
