@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main{
 	public static void main(String[] args) {
+		System.out.println("Cambio realizado por Dani en la rama 'dani'");
 		Menu a = new Menu();
 		a.inici();
 	}
@@ -11,7 +12,7 @@ public class Main{
 		int n=0;
 	    Scanner scanner = new Scanner(System.in);
 	    while (!scanner.hasNextInt()){
-	        System.out.println("Error, introdueix un número: ");
+	        System.out.println("Error, introdueix un nÃºmero: ");
 	        scanner.nextLine();
 	    }
 	    n = scanner.nextInt();
