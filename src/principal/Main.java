@@ -1,10 +1,10 @@
 package principal;
 
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main{
 	public static void main(String[] args) {
+		System.out.println("Pere Moyà Serra");
 		Menu a = new Menu();
 		a.inici();
 	}
